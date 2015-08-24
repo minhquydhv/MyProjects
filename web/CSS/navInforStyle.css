@@ -1,0 +1,29 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 2, 2015, 8:24:23 PM
+    Author     : quang quy
+*/
+
+.nav-infor .getYear{
+    border-radius: 50px;
+    width: 10%;
+    color: #000;
+    height: 30px;
+    border:2px solid #89BFE5;
+    float:left;
+    margin:5px 0 0 0;
+    line-height: 30px;
+}
+.nav-infor .getYear p{
+    text-align: center;
+    color: #2b542c;
+}
+.nav-infor .infor-login{
+    width: 20%;
+    float:right;
+    margin-right: 10px;
+}

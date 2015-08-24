@@ -1,0 +1,112 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 5, 2015, 3:00:32 PM
+    Author     : Admin
+*/
+@import "../CSS/bootstrap.css";
+select{
+    height: 35px;
+    margin: 0px 20px;
+    text-align: center;
+}
+select option{
+    text-align: left;
+    margin: 2px 0px 0px 0px;
+    padding-left: 2px;
+}
+table.setting{
+    border-collapse: collapse;
+    width: 100%;
+    margin: 10px auto;
+}
+table.setting tr:first-child{
+    background: #D2E7F0;
+}
+table.setting tr td,th{
+    padding: 10px 2px;
+    text-align: center;
+    border: 1px solid #89BFE5;
+}
+select{
+    width: 200px;
+}
+table.comment{
+    width: auto;
+    margin:10px auto;
+    border: 1px solid #000;
+}
+table.comment tr td{
+    padding: 5px;
+    border :1px solid #89BFE5;
+}
+textarea{
+    resize: none;
+    height: 100px;
+}
+.right{
+    float:right;
+}
+.confirmed{
+    margin-left: 200px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.mess{
+    margin-top: 20px;
+    text-align: center;
+    color: #ff0000;
+    font-size: 20px;
+}
+.staff-wrapper {
+    margin:  0px auto;
+}
+.staff-wrapper tr,td{
+    padding: 2px 100px;
+    border: none;
+}
+table.evaluateWorker{
+    margin: 0px;
+}
+table.evaluateWorker tr:first-child th,tr:nth-child(2) th,tr:nth-child(3) th{
+    padding: 5px 0px;
+    font-size: 12px; 
+}
+table.evaluateWorker tr td{
+    padding: 2px;
+}
+table.commentEvaluateWorker{
+    width: 20%;
+}
+table.commentEvaluateWorker tr:first-child th,tr:nth-child(2) th,tr:nth-child(3) th
+{
+    background: #D2E7F0;
+}
+
+table.guideline{
+    width: 50%;
+}
+table.guideline tr,td{
+    border: 1px solid #89BFE5;
+}
+table.performanceStaff{
+    width: 60%;
+}
+table.performanceStaff tr:first-child td:first-child{
+    width: 20%;
+}
+table.performanceStaff tr:first-child td:nth-child(2) {
+    width: 60%;
+}
+table.performanceStaff tr:first-child td:nth-child(2) textarea,tr:nth-child(3) td:nth-child(2) textarea,tr:nth-child(5) td:nth-child(2) textarea,tr:nth-child(7) td:nth-child(2) textarea{
+    width: 100%;
+}
+table.performanceStaff tr:first-child td:nth-child(3) {
+    width: 20%;
+}
+table.setting tr td,th{
+    padding: 0px;
+}

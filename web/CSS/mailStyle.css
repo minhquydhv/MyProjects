@@ -1,0 +1,36 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 6, 2015, 2:25:28 PM
+    Author     : Admin
+*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.sendMail {
+
+}
+.sendMail tr:first-child{
+   background: #D3DCE3;
+}
+.sendMail table{
+    border-collapse:collapse;
+    margin: 20px auto;
+    border-color: #B2ADAD;
+    width: 800px;
+}
+.sendMail table tr td{
+    padding: 10px;
+    border-color: #89BFE5;
+}
+.sendMail.right{
+    float:right;
+}
+.sentMail
+{
+    border:1px solid red;
+}

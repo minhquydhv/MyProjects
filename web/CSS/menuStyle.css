@@ -1,0 +1,91 @@
+@import"bootstrap.css";
+#menu-wrapper {
+    width:100%;
+    border-left: none;
+    border-right: none;
+    margin: 0px auto;
+    background: #001D33;
+    border-radius:5px;
+    border-bottom-left-radius:0px;
+    border-bottom-right-radius:0px;
+    border: 5px solid #E8E8EA;
+    border-bottom: none;
+
+}
+#nav, #nav ul {
+    list-style: none;
+    position: relative;
+    line-height: 41px;
+    margin:0px;
+    padding:0px;
+    border-radius: 5px;
+
+
+}
+
+#nav a:link, #nav a:active, #nav a:visited {
+    display: block;
+    padding: 0px 10px; /* 	 */
+    /* border:1px solid #3883cc; */
+    color: white;
+    text-decoration: none;
+    background: #001D33;
+    padding: 0px 20px;
+}
+
+#nav ul li li:first-child {
+    border-top: none;
+}
+
+#nav ul li {
+    border-top: 1px dotted white;
+}
+
+#nav a:hover {
+    /*background: white;*/
+    background: #E8E8EA;
+    color: #333;
+}
+
+#nav li {
+    float: left;
+    position: relative;
+}
+
+#nav ul {
+    position: absolute;
+    display: none;
+    width: 12em;
+    z-index: 1000;
+}
+
+#nav li ul a {
+    width: 12em;
+    float: left;
+}
+
+#nav ul ul {
+    top: auto;
+}
+
+#nav li ul ul {
+    left: 149px;
+    margin: 0px 0px 0px 20px;
+}
+
+#nav li:hover ul ul,
+#nav li:hover ul ul ul,
+#nav li:hover ul ul ul ul {
+    display: none;
+}
+
+
+#nav li:hover ul,
+#nav li li:hover ul,
+#nav li li li:hover ul,
+#nav li li li:hover ul {
+    display: block;
+}
+.clearfix{
+    clear: both;
+}

@@ -1,0 +1,59 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 2, 2015, 4:23:11 PM
+    Author     : quang quy
+    content style css
+*/
+body{
+    background: url(../Images/bg-body.jpg);
+}
+.wrapper{
+    width: 100%;
+    height: auto;
+    margin: 25px auto;
+    background: #fff;
+    /*background:url(../Images/bg-wrapper.jpg);*/
+    box-shadow: 2px 2px 2px 5px #ADADAD;
+    border-radius: 5px;
+    border: 5px solid #fff;
+    padding: 2px;
+}
+.menu{
+    width: 100%;
+    height: 45px;
+}
+.nav-infor{
+    width: 100%;
+    height: 45px;
+    margin-top: 5px;
+}
+.header{
+    width: 100%;
+    height: 100px;
+    margin-bottom: 5px;
+}
+.content{
+    margin-top: 0px;
+    width:100%;
+    height:auto;
+    border:1px solid #F1F1F1;
+    border-radius: 5px;
+    background: #FAFAFA;
+    padding:5px 0px 500px 0px;
+
+}
+.clear-fix{
+    clear: both;
+}
+table tr,td,th{
+    border:1px solid #89BFE5;
+}
+.empty{
+    font-size: 20px;
+    color: #ff0000;
+    text-shadow: 1px 1px 1px #222;
+}
